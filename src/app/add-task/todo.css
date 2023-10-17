@@ -1,0 +1,90 @@
+.add-todo-form {
+  background: black;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.images{
+    width: 113px;
+}
+.lebelfield {
+  width: fit-content !important ;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.add-btn {
+  background: rgb(43, 192, 43);
+  padding: 10px 17px;
+  font-size: 20px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 600;
+  border-radius: 10px;
+}
+.add-btn:hover {
+  background: rgb(22, 102, 22);
+  color: white;
+}
+.dlt-btn {
+  background: rgb(215, 28, 28);
+  padding: 10px 17px;
+  font-size: 20px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 600;
+  border-radius: 10px;
+  margin-left: 8px;
+}
+.dlt-btn:hover {
+  background: rgb(160, 20, 20);
+  color: white;
+}
+.input1 {
+  outline: none;
+  height: 40px;
+  font-size: 20px;
+  width: 350px;
+  border-radius: 20px;
+  padding: 14px 10px;
+  color: black;
+  font-family: "Fira Sans", sans-serif;
+  margin-bottom: 10px;
+}
+.input2 {
+  outline: none;
+  /* height: 30px; */
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 14px 10px;
+  width: 100%;
+  color: black;
+  font-family: "Fira Sans", sans-serif;
+  margin-bottom: 10px;
+
+
+}
+.btn-div{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 20px;
+}
+.input3 {
+    outline: none;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 14px 10px;
+    background: rgb(34, 33, 33);
+    width: 100%;
+    color: white;
+    font-family: "Fira Sans", sans-serif;
+    margin-bottom: 10px;
+  
+  }
+.greybg{
+    border: 1px solid grey;
+    border-radius: 20px;
+    background: rgb(73, 72, 72);
+    padding: 30px;
+}

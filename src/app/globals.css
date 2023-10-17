@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap");
+
+body {
+  background: #ffffff;
+  font-family: "Fira Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+
+  color: rgb(28, 23, 23);
+}
